@@ -1,4 +1,4 @@
-package com.classes;
+package com.matheus.classes;
 
 public class Metodos {
 
