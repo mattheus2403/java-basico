@@ -8,7 +8,7 @@ public class Metodos {
 		String primeiroNome = "Matheus";
 		String segundoNome = "Morais";
 		
-		//variável que irá chamar o método
+		//variável que irá chamar o método.
 		String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
 		
 		System.out.print(nomeCompleto);
