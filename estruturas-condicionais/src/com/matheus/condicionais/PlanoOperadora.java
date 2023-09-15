@@ -1,6 +1,6 @@
 package com.matheus.condicionais;
 
-public class SwitchCaseFuncional {
+public class PlanoOperadora {
 
 	public static void main(String[] args) {
 		// exemplo de switch case funcional, onde
