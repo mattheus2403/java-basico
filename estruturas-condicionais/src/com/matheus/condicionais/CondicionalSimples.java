@@ -15,7 +15,7 @@ public class CondicionalSimples {
 			saldo = saldo - valorSolicitado;
 		}
 		
-		System.out.println(saldo);
+		System.out.println("Saldo atual: " + saldo);
 				
 
 	}
