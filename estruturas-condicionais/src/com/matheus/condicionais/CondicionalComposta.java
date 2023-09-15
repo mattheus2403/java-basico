@@ -12,6 +12,7 @@ public class CondicionalComposta {
 			System.out.println("Você é maior de idade");
 		}
 		
+		//retorna que a idade da pessoa não atingiu a maioridade
 		else {
 			System.out.println("Você é menor de idade");
 		}
