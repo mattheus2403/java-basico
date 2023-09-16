@@ -1,4 +1,4 @@
-package com.matheus.repeticoes;
+package com.matheus.forlaco;
 
 public class LacoFor {
 
