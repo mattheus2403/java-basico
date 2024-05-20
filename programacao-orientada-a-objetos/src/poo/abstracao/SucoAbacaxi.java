@@ -9,6 +9,6 @@ public class SucoAbacaxi extends ServicoPreparoSucos {
 	
 	@Override
 	public void entragaSuco() {
-		System.out.println("Entregando suco de abacaxi");
+		System.out.println("Entregando suco de abacaxi\n");
 	}
 }
