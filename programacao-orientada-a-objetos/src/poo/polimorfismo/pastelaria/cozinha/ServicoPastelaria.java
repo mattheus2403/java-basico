@@ -1,4 +1,4 @@
-package poo.polimorfismo;
+package poo.polimorfismo.pastelaria.cozinha;
 
 public abstract class ServicoPastelaria {
 	
