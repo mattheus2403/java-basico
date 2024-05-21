@@ -4,7 +4,7 @@ public class Scanner implements Digitalizadora{ //implementação da interface
 
 	@Override
 	public void digitalizar() {
-		System.out.println("Digitalizando");
+		System.out.println("Digitalizando Via Scanner");
 	}
 
 }
