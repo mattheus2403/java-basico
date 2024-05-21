@@ -34,6 +34,7 @@ public class Pastelaria {
 			pdp = new PastelFrango();
 		}
 		
+		//chamada de métodos
 		pdp.anotarPedido();
 		pdp.entragaPastel();
 		
