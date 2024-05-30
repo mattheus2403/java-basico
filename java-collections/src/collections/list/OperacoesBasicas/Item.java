@@ -25,4 +25,14 @@ public class Item {
 		return quantidade;
 	}
 	
+	//toString
+	@Override
+	public String toString() {
+		return "Item{" +
+				"nome='" + nome + '\'' +
+				", preco=" + valor +
+				", quant=" + quantidade +
+				'}' + "\n";
+	}
+	
 }
