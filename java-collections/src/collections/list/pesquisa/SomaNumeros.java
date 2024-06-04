@@ -3,7 +3,7 @@ package collections.list.pesquisa;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SomaNumeros {
+public class SomaNumeros{
 
 	//atributo
 	List<Integer> numeros;
