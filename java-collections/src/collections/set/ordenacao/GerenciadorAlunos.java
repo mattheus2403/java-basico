@@ -79,6 +79,9 @@ public class GerenciadorAlunos {
 		//exibe alunos por nome em ordem alfabetica
 		System.out.println("\n" + gerenciadorAlunos.exibirAlunosPorNome() + "\n");
 		
+		//remove um aluno por matricula
+		gerenciadorAlunos.removeAluno(12345);
+		
 		//exibe alunos por media em ordem crescrente
 		System.out.println(gerenciadorAlunos.exibirAlunosPorMedia() + "\n");
 		
