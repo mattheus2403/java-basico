@@ -34,7 +34,10 @@ public class GerenciadorAlunos {
 			alunoSet.remove(alunoParaRemover);
 		}
 		else {
-			System.out.println("Sem matriculas");
+			System.out.println("Conjunto vazio");
+		}
+		if(alunoParaRemover == null) {
+			System.out.println("Matricula não encontrada");
 		}
 	}
 	
