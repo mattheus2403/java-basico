@@ -27,7 +27,7 @@ public class OrdenacaoPessoa {
 		return pessoasPorIdade;
 	}
 	
-	//ordena a lista por altura com comparable
+	//ordena a lista por altura com comparator
 	public List<Pessoa> ordenarPorAltura(){
 		List<Pessoa> pessoasPorAltura = new ArrayList<>(pessoasList);
 		Collections.sort(pessoasPorAltura, new ComparatorPorAltura());
