@@ -7,7 +7,7 @@ import java.util.Map;
 public class Dicionario {
 
 	//atributo
-	Map<String, String> dicionarioMap;
+	private Map<String, String> dicionarioMap;
 
 	//construtor
 	public Dicionario() {
