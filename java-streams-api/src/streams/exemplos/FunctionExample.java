@@ -20,8 +20,9 @@ public class FunctionExample {
 	    
 	    // Usar a function para dobrar todos os numeros na stream e armazenar eles em outra lista
 	    List<Integer> numerosDobrados = numeros.stream()
-	    .map(dobrar) //pega o dobrar de function
-	    //com lambda e sem function de forma direta: .map(n -> n * 2)
+//	    .map(dobrar) //pega o dobrar de function
+	    //sem lambda: .map(dobrar)
+	    .map(n -> n * 2) //com lambda
 	    .toList();
 	    
 	    // Imprimir a lista de números dobrados
