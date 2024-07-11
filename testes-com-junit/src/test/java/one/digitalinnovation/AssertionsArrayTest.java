@@ -2,9 +2,9 @@ package one.digitalinnovation;
 
 import org.junit.jupiter.api.Test;
 
-//import static permite que não seja necessário declarar o nome da
+//import static permite que nao seja necessario declarar o nome da
 //biblioteca a ser usada, ao adicionar * todos os comandos dessa biblioteca 
-//serão selecionados, então não há necessidade de importar uma a uma.
+//serao selecionados, entao nao ha necessidade de importar uma a uma.
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.time.LocalDateTime;
@@ -16,10 +16,10 @@ public class AssertionsArrayTest {
 		int [] primeiroLancamento = {10, 20, 30, 40, 50};
 		int [] segundoLancamento = {-1, 33, 22, 44, 12};
 		
-		//assertArrayEquals valida se os arrays são iguais
+		//assertArrayEquals valida se os arrays sao iguais
 //		assertArrayEquals(primeiroLancamento, segundoLancamento);
 		
-		//assertNotEquals valida se os objetos são diferentes
+		//assertNotEquals valida se os objetos sao diferentes
 		assertNotEquals(primeiroLancamento, segundoLancamento);
 	}
 	
@@ -27,10 +27,10 @@ public class AssertionsArrayTest {
 	void validarPessoaNula() {
 		Pessoa pessoa = null;
 		
-		//assertNull valida se a pessoa é nula
+		//assertNull valida se a pessoa eh nula
 		assertNull(pessoa);
 		
-		//assertNull valida se a pessoa não é nula
+		//assertNull valida se a pessoa nao eh nula
 		Pessoa matheus = new Pessoa("Matheus", LocalDateTime.now());
 		assertNotNull(matheus);
 	}

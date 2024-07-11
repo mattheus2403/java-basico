@@ -7,11 +7,11 @@ public class BancoDeDados {
 	private static final Logger LOGGER = Logger.getLogger(BancoDeDados.class.getName());
 	
 	public static void iniciarConexao() {
-		LOGGER.info("Iniciou Conexão");
+		LOGGER.info("Iniciou Conexao");
 	}
 	
 	public static void finalizarConexao() {
-		LOGGER.info("finalizou Conexão");
+		LOGGER.info("finalizou Conexao");
 	}
 	
 	public static void insereDados(Pessoa pessoa) {
