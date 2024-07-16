@@ -1,5 +1,7 @@
 package one.digitalinnovation.mockito;
 
+import static org.mockito.ArgumentMatchers.anyInt;
+
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentMatcher;
@@ -39,6 +41,14 @@ public class ContaTeste {
 		
 		//valida se o validaSaldo foi chamado 3 vezes
 		Mockito.verify(conta, Mockito.times(3)).validaSaldo(ArgumentMatchers.anyInt());
+	}
+	
+	
+	@Test
+	void retornaTrueParaQualquerValorNaValidacaoDeSaldo() {
+		//aqui mesmo se o saldo nao for suficiente ele nao fara nada, entao nao havera erro
+		Mockito.doNothing().when(conta).validaSaldo(ArgumentMatchers.anyInt());
+		conta.validaSaldo(3_500);
 	}
 	
 
